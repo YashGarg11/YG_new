@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <h1><U> <font style="border:RED; border-width:20px; border-style:outset;">SURVEY FORM</font></U></h1>
+       
+     
+    <style>
+        body{
+            background-color: burlywood;
+            font-family: Verdana;
+            text-align: center;
+        }
+    </style>
+    <style size="500px">body  
+        { background-image:url('https://www.icegif.com/wp-content/uploads/icegif-5604.gif'); background-repeat:no-repeat;
+        background-size: 1520px 2640px; } </style>
+   <style>
+    form {
+      
+        background-color:red;
+        background-image:url('https://www.gifstop.com/images/borders/border06.gif'); background-repeat:no-repeat;
+        background-size: 760px 2380px;
+        border-width: 500px;
+        margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 400px;
+
+  
+        padding: 55px 30px;
+        box-shadow: red;
+        block-size: auto;
+        writing-mode: horizontal-tb;
+        
+
+        width: 700px;
+  
+ 
+ 
+  
+  font-size: xx-large;
+
+    }
+   </style>
+   <style>
+
+
+  /*  Class */
+  .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+  }
+
+  /*  Label */
+  .form-control label {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  /*  textarea */
+  .form-control input,
+
+  .form-control select,
+
+  .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 2px;
+      width: 95%; font-family: inherit;
+      padding: 10px;
+      display: block;
+  }
+
+  /* Styling form Checkbox */
+  .form-control input[type="radio"],
+  .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+  }</style>
+   <style>
+     button {
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 2px;
+        font-family: inherit;
+        font-size: 21px;
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+ @media only screen and (max-width: 600px) {
+  form {
+    font-size: 14px; /* reduce font size of form elements */
+    background-image: 400px 900px;
+  }
+  input[type="text"], select, textarea {
+    font-size: 14px; /* reduce font size of form inputs */
+    padding: 5px; /* reduce padding of form inputs */
+  }
+  label {
+    font-size: 12px; /* reduce font size of form labels */
+  }
+  button {
+    font-size: 14px; /* reduce font size of form button */
+    padding: 5px 10px; /* reduce padding of form button */
+  }
+}
+   </style>
+</head>
+<body>
+    <form name="form">
+<br>
+<br>
+<br>
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="first_name">
+                <b><i><u><font style="border:blue; border-width:10px; border-style:outset;"> NAME</font></u></i></b>
+            </label>
+<br>
+            <!-- Input Type Text -->
+            <input type="text" name="first_name" placeholder=" Firstname" required><br>
+            <div>
+                <input type="text" name="last_name" placeholder="Lastname" required />
+            </div>
+        </div>
+<br>
+        <div class="form-control">
+            <label for="address" name="_address">
+                <b><i><u><font style="border:blue; border-width:10px; border-style:outset;"> ADDRESS</font></u></i></b>
+            </label>
+            <div>
+                <input type="text" name="_street" placeholder="Street" required />
+            </div><br>
+            <div>
+                <input type="text" name="_city" placeholder="City" required />
+            </div><br>
+            <div>
+                <input type="text" name="_state" placeholder="State" required />
+            </div><br>
+            <div>
+                <input type="number" name="_pin" placeholder="Pincode" required />
+            </div><br>
+        </div>
+
+        <div class="form-control">
+             
+            <b><i><u><font style="border:blue; border-width:10px; border-style:outset;">CONTACT</font></u></i></b>
+                            <input type="number" name="contact_number" placeholder="contact_number" maxlength="10" required  />  
+        </div><br>
+
+        <div class="form-control">
+            <label>
+                <b><i><u><font style="border:blue; border-width:10px; border-style:outset;">Quality Of Products Received </font></u></i></b>
+            </label>
+<br>
+            <!-- Input Type Radio Button -->
+            <label for="Excellent">                   
+              <div align="left" ><img src="https://img.freepik.com/premium-psd/happy-emoji-3d-illustration_256361-168.jpg?w=2000"  height="40"></div> 
+               
+
+                <div align="left"> <input type="radio" id="Excellent" value="Excellent"  name="Quality_Of_Products_Received" required>Excellent </input></div>
+            </label>
+            <label for="Good">
+                <div align="center" ><img src="https://img.freepik.com/premium-vector/smile-icon_543534-119.jpg?w=2000"  height="40"></div> 
+               <div align="center"><input type="radio" id="Good" value="Good"  name="Quality_Of_Products_Received" required>Good</input>
+               </div> </label>
+            <label for="Bad">
+                <div align="right"><img src="https://www.vhv.rs/dpng/d/446-4464423_thumbs-down-emoji-86-decal-smiley-bad-hd.png" height="40"></div>
+             <div align="right">   <input type="radio" id="Bad" value="Bad"  name="Quality_Of_Products_Received" required>Bad</input>
+            </div>  </label>
+        </div><br>
+
+        <div class="form-control">
+            <label>
+                <b><i><u><font style="border:blue; border-width:10px; border-style:outset;"> Value For Money</font></u></i></b>
+            </label>
+<br>
+            <!-- Input Type Radio Button -->
+            <label for="Excellent">
+                <div align="left" ><img src="https://t4.ftcdn.net/jpg/05/21/61/77/360_F_521617788_tW8J94DiIAr3L26zND5RzcwxrCpJcOrt.jpg"  height="40"></div> 
+                <div align="left"> <input type="radio" id="Excellent" value="Excellent"  name="Value_For_Money" required>Excellent</input>
+                </div>  </label>
+            <label for="Good">
+                <div align="center" ><img src="https://media.istockphoto.com/id/497602815/vector/emoticon-with-dollars.jpg?s=612x612&w=0&k=20&c=h0C9oMcyEjL7ayRNuHQBLL81R8opeD2sqZlqFisKXAc="  height="40"></div> 
+                <div align="center">  <input type="radio" id="Good" value="Good"  name="Value_For_Money" required>Good</input>
+                </div></label>
+            <label for="Bad">
+                <div align="right" ><img src="https://t3.ftcdn.net/jpg/01/17/46/06/360_F_117460615_PfkgkvCzC2liQsw0U85VzlfK1KnNCW4R.jpg"  height="40"></div> 
+                <div align="right">   <input type="radio" id="Bad" value="Bad"  name="Value_For_Money" required>Bad</input>
+                </div>  </label>
+        </div><br>
+
+        <div class="form-control">
+            <label>
+               <b><i><u><font style="border:blue; border-width:10px; border-style:outset;">  Delivery_rating</font></u></i></b>
+            </label>
+<br>
+            <!-- Input Type Radio Button -->
+            <label for="Excellent">
+                <div align="left" ><img src="https://img.freepik.com/free-vector/fast-delivery-set-icons_24877-60537.jpg"  height="40"></div> 
+                <div align="left">  <input type="radio" id="Excellent" value="Excellent"  name="Delivery_rating" required>Excellent</input>
+                </div>  </label>
+            <label for="Good">
+                <div align="center" ><img src="https://www.kindpng.com/picc/m/22-222264_clip-art-fast-online-ordering-fried-food-delivery.png"  height="40"></div> 
+                <div align="center">  <input type="radio" id="Good" value="Good" name="Delivery_rating" required>Good</input>
+                </div>  </label>
+            <label for="Bad">
+                <div align="right" ><img src="https://previews.123rf.com/images/arducha/arducha2009/arducha200900552/156043331-delivery-courier-delivering-package-to-customer-by-riding-a-turtle.jpg"  height="40"></div> 
+                <div align="right">  <input type="radio" id="Bad" value="Bad" name="Delivery_rating" required>Bad</input>
+                </div>  </label>
+        </div><br>
+
+    
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+
+</body>
+</html>
